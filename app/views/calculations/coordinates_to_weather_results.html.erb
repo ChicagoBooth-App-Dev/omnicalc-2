@@ -1,0 +1,29 @@
+<h1>Weather Results from coordinates</h1>
+
+
+<dl>
+  <dt>Latitude</dt>
+  <dd><%= @latitude %></dd>
+
+  <dt>Longitude</dt>
+  <dd><%= @longitude %></dd>
+
+  <dt>Current Temperature</dt>
+  <dd><%= @current_temp %></dd>
+
+  <dt>Current Summary</dt>
+  <dd><%= @current_summ %></dd>
+
+  <dt>Outlook for the next 60 minutes</dt>
+  <dd><%= @minutely_summ %></dd>
+
+  <dt>Outlook for the next several hours</dt>
+  <dd><%= @hourly_summ %></dd>
+
+  <dt>Outlook for the next several days</dt>
+  <dd><%= @daily_summ %></dd>
+</dl>
+
+<div>
+<a href ='/coords_to_weather/new'>Lookup new coordinates!</a>
+</div>
